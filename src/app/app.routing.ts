@@ -4,6 +4,7 @@ import { CategoriesComponent } from './categories/categories.component';
 import { HousingComponent } from './housing/housing.component';
 import { JobsComponent } from './jobs/jobs.component';
 import { ForSaleComponent } from './for-sale/for-sale.component';
+import { PersonalsComponent } from './personals/personals.component';
 
 const appRoutes: Routes = [
   {
@@ -21,6 +22,10 @@ const appRoutes: Routes = [
   {
     path: 'for-sale',
     component: ForSaleComponent
+  },
+  {
+    path: 'personals',
+    component: PersonalsComponent
   }
 ];
 
