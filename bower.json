@@ -1,0 +1,17 @@
+{
+  "name": "craigslist-clone",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Nicole Freed <nicole.freed@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
