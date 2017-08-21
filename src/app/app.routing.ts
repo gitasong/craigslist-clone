@@ -2,6 +2,7 @@ import { ModuleWithProviders }  from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { CategoriesComponent } from './categories/categories.component';
 import { HousingComponent } from './housing/housing.component';
+import { JobsComponent } from './jobs/jobs.component';
 
 const appRoutes: Routes = [
   {
@@ -11,6 +12,10 @@ const appRoutes: Routes = [
   {
     path: 'housing',
     component: HousingComponent
+  },
+  {
+    path: 'jobs',
+    component: JobsComponent
   }
 ];
 
