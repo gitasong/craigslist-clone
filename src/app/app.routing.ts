@@ -5,6 +5,7 @@ import { HousingComponent } from './housing/housing.component';
 import { JobsComponent } from './jobs/jobs.component';
 import { ForSaleComponent } from './for-sale/for-sale.component';
 import { PersonalsComponent } from './personals/personals.component';
+import { ServicesComponent } from './services/services.component';
 
 const appRoutes: Routes = [
   {
@@ -26,6 +27,10 @@ const appRoutes: Routes = [
   {
     path: 'personals',
     component: PersonalsComponent
+  },
+  {
+    path: 'services',
+    component: ServicesComponent
   }
 ];
 
